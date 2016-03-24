@@ -1,0 +1,15 @@
+if TARGET_HP_PRIME
+
+config SYS_BOARD
+	default "hp_prime"
+
+config SYS_VENDOR
+	default "hp"
+
+config SYS_SOC
+	default "s3c24x0"
+
+config SYS_CONFIG_NAME
+	default "hp_prime"
+
+endif

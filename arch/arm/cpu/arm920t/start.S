@@ -50,7 +50,7 @@ copyex:
 	bne	copyex
 #endif
 
-#ifdef CONFIG_S3C24X0
+#if defined(CONFIG_S3C24X0) && !defined(CONFIG_HP_PRIME)
 	/* turn off the watchdog */
 
 # if defined(CONFIG_S3C2400)

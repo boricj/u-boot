@@ -1,0 +1,6 @@
+HP PRIME
+M:	Jean-Baptiste Boric <jblbeurope@gmail.com>
+S:	Maintained
+F:	board/hp/hp_prime/
+F:	include/configs/hp_prime.h
+F:	configs/hp_prime_defconfig
